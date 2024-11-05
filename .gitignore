@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+*.log
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/coverage/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
